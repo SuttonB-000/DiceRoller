@@ -1,0 +1,35 @@
+<!--
+  ~ Copyright 2022, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="250dp"
+    android:viewportWidth="800"
+    android:viewportHeight="1000">
+    <path android:fillColor="#C5C4C4" android:pathData="M100,790 Q400,700 700,790 Q745,835 400,885 Q55,835 100,790Z" android:fillAlpha="0.5" />
+    <path android:fillColor="#AA93AE" android:pathData="M400,120 L100,460 L180,540Z" />
+    <path android:fillColor="#C0A4C5" android:pathData="M400,120 L700,460 L620,540Z" />
+    <path android:fillColor="#E1BEE7" android:pathData="M400,120 L180,540 L620,540Z" />
+    <path android:fillColor="#AA93AE" android:pathData="M100,460 L180,540 L400,820Z" />
+    <path android:fillColor="#917B96" android:pathData="M700,460 L620,540 L400,820Z" />
+    <path android:fillColor="#C0A4C5" android:pathData="M180,540 L620,540 L400,820Z" />
+    <path android:fillColor="#00000000" android:strokeColor="#E7DCE8"
+        android:strokeWidth="8" android:strokeLineJoin="round"
+        android:pathData="M400,120 L100,460 L400,820 L700,460 Z M400,120 L180,540 L400,820 M400,120 L620,540 L400,820 M100,460 L180,540 L620,540 L700,460" />
+    <path android:fillColor="#00000000" android:strokeColor="#211725"
+        android:strokeWidth="15" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M420,445 L420,320 L360,405 L445,405" />
+</vector>
